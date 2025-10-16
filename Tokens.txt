@@ -1,0 +1,71 @@
+Tokens:
+--tokens are the smallest elements in a program
+--we have the following tokens:
+1)keyword
+2)identifiers
+3)literals
+4)seperators
+===========================================================================================
+1)keywords:
+--are the predefined words which are known to the java complier.
+--keywords are also called as reserved words.
+--note:
+*)keywords must be in lowercase
+*)we cant use keyword for any other purpose
+ex: class,public,static,void,try,if,while etc
+==========================================================================================
+2)identifiers:
+--identifiers is a name given by the programmer to the elements of the java.
+
+**Rules of identifiers:
+--we cant starts with numerical values
+ex:
+class Demo1//CTS
+class 1Demo//CTE
+class Demo1Program//CTS
+--we cant use special charaters otherthen $,_
+ex:
+class Demo-Program//CTE
+class Demo_Program//CTS
+class Demo?//CTE
+--we cant provide the space in between the identifiers .
+ex:
+class Demo Program//CTE
+class DemoProgram//CTS
+--we cant use keyword as a identifiers
+ex:
+class public//CTE
+class Public//CTS
+=========================================================================================
+3)literals:
+in java we have following literals:
+*Numerical
+*Character
+*String
+*Boolean
+
+**Numerical:
+--in java the integers & float values can be used as numericals
+--we need to pass that directly to be considered as numerical value
+
+**Character:
+--Anything which is enclosed within single code''
+note:within '' we cam pass only 1 character if we pass more then 1 we get compile time error
+
+**String:
+--anything which is enclosed within the ""
+
+**Boolean:
+--we have 2 values:
+1)true
+2)false
+===========================================================================================
+4)Separators:
+are used to separate one member from another member
+-->{},;
+
+
+
+
+
+
