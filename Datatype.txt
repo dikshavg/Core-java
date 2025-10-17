@@ -1,0 +1,53 @@
+**Datatype:
+are used to specifies the size and type of the data that can be stored in a container known as datatype.
+*we have 2 types:->
+1)Primitive datatype(Single value data)
+2)Non-Primitive datatype(Multi-value data)
+==============================================================================================================
+Primitive datatypes:(8)
+1)byte
+2)short
+3)int
+4)long
+5)float
+6)double
+7)char
+8)Boolean
+==============================================================================================================
+Variable: is a name given by the programmer to the container created.
+*to create variable we need:->
+1)datatype
+2)identifiers
+
+#Syntax to create variable:->
+datatype identifiers;
+
+#Syntax to initialize a variable:->
+variable Name=value/Expression;
+
+#Syntax to declare & initialize a variable:->
+datatype identifier=value/Exp;
+==================================================================================================================
+Types of variables:->
+1)Local variable
+2)Global variable
+
+1)Global variable: the variable which is create in the global area/class block.
+it has 2 type:
+*Static variable
+*Non-static variable
+
+2)Local variable: a variable which is create in the local area.
+
+**Characteristics of local variable:->
+1)local variable doesn't have the default value.
+2)Before using the local variable we must initialize else we get compile time error.
+3)local variable can be used within the block where it is declared, if we try to use outside the block we get error.
+
+
+
+
+
+
+
+
