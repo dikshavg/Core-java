@@ -1,0 +1,19 @@
+Explain3:
+
+class  Example3
+{
+	public static void main(String[] args) 
+	{
+		String name="Diksha";
+		int age=21;
+		String address="bidar";
+		int height=5;
+		int weight=40;
+		System.out.println("name");
+		System.out.println(age);
+		System.out.println("address");
+		System.out.println(height);
+		System.out.println(weight);
+	}
+}
+==========================================================================
