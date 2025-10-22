@@ -1,0 +1,36 @@
+class example3
+{
+public static void main(String[] args)
+{
+int a;//declaration
+a=24;//initialization
+System.out.println(a);//print Statement
+}
+}
+=====================================================================================
+Local variables:
+class exampl4
+{
+public static void main(String[] args)
+{
+int a;
+System.out.println(a);//CTE
+}
+}
+=======================================================================================
+Local variables:
+class exampl5
+{
+public static void main(String[] args)
+{
+{
+int a=10;
+{
+System.out.println(a);//CTS
+}
+System.out.println(a);//CTS
+}
+System.out.println(a);//CTE
+}
+}
+=======================================================================================
