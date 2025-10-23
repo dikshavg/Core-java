@@ -1,0 +1,49 @@
+*Expression:
+=>a statement which gives us the result is known as Expression.
+=>it is a combination of Operator and Operand.
+
+*Operands:
+=>are the values that we pass to an Operands.
+=>ex:1,34,numbers.
+
+*Operators:
+=>are the pre-defined symbol which are used to perform a specific task.
+=>ex:+,-,*,/,% 
+===================================================================================================
+*Based on how many operands we can pass to an operators, it is classified into 3 types:
+1)Unary Operator
+2)Binary Operator
+3)Ternary Operator
+
+1)Unary Operator:
+an  operator which receives only 1 value 
+ex:++,--,!
+
+2)Binary Operator:
+an  operator which receives 2 value
+ex:+,-,*,/,%,<,>,<=,>=,==,!=,&&,!!
+
+3)Ternary Operator
+an  operator which receives 3 value
+ex: Conditional Operator(? :)
+===================================================================================================
+*Based on the purpose Operators are classified into below types:
+1)Arithmetic Operators:
+=>in java we have following Arithmetic Operators
+=>+,-,*,/,%
+
+i)Addition(+):
+=>it is a binary Operator
+=>+ Symbol has 2 behavior---*Addition----*Concatenation
+
+note: whenever we pass a String value, to LHS or RHS or both LHS & RHS then it like a concatenation operator, in the Rest of the case it behaves like normal Addition.
+=>for below Operator we cant pass Boolean value as well as String value
+
+ii)Division Operator(/):
+=>it is Binary Operator
+=>it is used to get the Quotient value.
+
+iii)Modules(%):
+=>it is the Binary Operator
+=>it is used to get the reminder value.
+==================================================================================================
