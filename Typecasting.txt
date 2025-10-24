@@ -1,0 +1,42 @@
+*Typecasting:
+=>The process of Converting one datatype into Another datatype known as Typecasting.
+=>In java we have 2 types of Typecasting:
+1)Primitive Typecasting
+2)Non-Primitive typecasting
+======================================================================================================
+1)Primitive Typecasting:
+=>The process of converting one primitive datatype into Another primitive datatype known as Pt.
+=>Based on typecasting is classified into 2 types:
+i)Widening
+ii)Narrow
+
+i)Widening:
+->the process of converting smaller range datatype into larger range datatype is known as Widening.
+->During widening there is no-data loss therefore it will happen implicitly hence it is called as Auto-widening.
+ex: int a='A';
+	System.out.println(a);//65
+
+2)Narrow:
+->the process converting larger range datatype into smaller range datatype is known as Narrow.
+->there is chance of data loss so we have to do Explicitly, by using an Operator called Type-Cast-operator. 
+ex:
+int a=10.5;//CTE
+System.out.println(a);
+=====================================================================================================================
+*Type-Cast-Operator:
+->it is Unary Operator.
+->it is used to convert one type data into Another type Explicitly.
+-->Syntax:(datatype)value/Expression;
+==============================================================================================================
+*Relational Operator:
+->it is binary Operator.
+->it is used to compare between the two literals
+->the return type is Boolean.
+->the relational operator are <,>,<=,>=,==,!=
+=================================================================================================================
+*Conditional Operator:
+->it is ternary Operator.
+->it is used to take decision by comparing the literals
+->Syntax:Operand1?Operand2:Operand3;
+->in the Operand1 we have to write Boolean or Expression
+->the return type depends on Operand2 & 3.
