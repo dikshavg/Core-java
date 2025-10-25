@@ -1,0 +1,62 @@
+*Increment Operator:
+->it is a Unary Operator.
+->it is used to increases the value of a variable by 1.
+note: we cannot use increment operator directly with a value, we get CTE
+ex: System.out.println(10++);//CTE
+
+**It has 2 types:
+1)Post-increment Operator
+2)Pre-increment Operator
+
+1)Post-increment Operator:
+->Syntax: variable++
+->first use the value then, increases the value of a variable by one.
+ex: int a=15;
+System.out.println(a++);//15
+System.out.println(a);//16
+
+2)Pre-increment Operator:
+->Syntax: ++Variable
+->first increases the value of a variable by 1 then,use the value.
+ex: int a=15;
+System.out.println(++a);//16
+System.out.println(a);//16
+
+========================================================================================================================
+ *Decrement Operator:
+->it is a Unary Operator.
+->it is used to decreases the value of a variable by 1.
+note: we cannot use decrement operator directly with a value, we get CTE
+ex: System.out.println(10--);//CTE
+
+**It has 2 types:
+1)Post-decrement Operator
+2)Pre-decrement Operator
+
+1)Post-decrement Operator:
+->Syntax: variable--
+->first use the value then, decreases the value of a variable by one.
+ex: int a=15;
+System.out.println(a--);//15
+System.out.println(a);//14
+
+2)Pre-decrement Operator:
+->Syntax: --Variable
+->first decreases the value of a variable by 1 then,use the value.
+ex: int a=15;
+System.out.println(--a);//14
+System.out.println(a);//14
+==========================================================================================================================
+**Assignment Operator:
+->it is a binary Operator.
+->it is used to assign a value.
+Syntax: variable=value/Expression;
+->LHS must be a variable.
+->it will have least order of precedence.
+->it executes from RHS to LHS
+=======================================================================================================================
+**Compound Assignment Operator:
+->it is binary Operator.
+->it is combination of Arithmetic Operator and the Assignment Operator.
+->it is used to update the some container
+Advantages: Even the narrowing done implicitly 
