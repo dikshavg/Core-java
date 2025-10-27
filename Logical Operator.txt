@@ -1,0 +1,66 @@
+*Logical Operator:
+1)AND Operator
+2)OR Operator
+3)Not Operator
+
+1)AND Operator:
+->it is binary Operator
+->whenever we need to satisfy multiple conditions to perform a task we use && operator
+->we can use && Operator between the conditions that is between the Boolean value
+->the return type is Boolean
+ex: int a=10;
+int b=20;
+System.out.println(a>b && ++a<b);//false
+System.out.println(a);//10
+System.out.println(b);//20
+
+2)OR Operator:
+->it is binary Operator
+->whenever we need to satisfy any one of the condition to perform a task we use OR operator
+->we can use or operator between the condition only
+->The return-type is Boolean
+->ex: int a=10;
+int b=20;
+System.out.println(a<b || ++a<b);//true
+System.out.println(a);//10
+System.out.println(b);//20
+
+3)Not Operator:
+->itis Unary Operator
+->it is used to neget the value
+->it can be used along with Boolean value or an expression which return Boolean value.
+->the return-type is Boolean
+ex:
+System.out.println(!true);//false
+System.out.println(!(10>20));//true
+System.out.println(!(10+20));//CTE
+==================================================================================================
+**Flow control statements:
+a statement which is used to control the flow of execution is known as Flow control statements.
+1)Decision statements:
+->a statement which is used to take the decision
+->in java we have the following types:
+i)Simple-if
+ii)if-else
+iii)else-if ladder
+iv)Switch
+
+i)Simple if:
+->whenever we have only 1 condition(option) we use simple if
+Syntax:
+if(condition)
+{
+//java statements
+}
+
+ii)if-else:
+->whenever we have 2 condition we use if-else
+Syntax:
+if(condition)
+{
+//java statements
+}
+else
+{
+//java statements
+}
