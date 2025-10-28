@@ -1,0 +1,185 @@
+Relational Operator:
+class example1
+{
+public static void main(String[] args)
+{
+System.out.println(10==10);//true
+System.out.println(10.5>10);//true
+System.out.println('A'>='a');//false
+System.out.println(true>false);//CTE
+System.out.println(10==false);//CTE
+System.out.println(true==false);//false
+System.out.println("hi"=="hi");//true
+System.out.println("Hi">"hi");//CTE
+System.out.println("Hi"!=10);//CTE
+}
+}
+========================================================================================
+Conditional Operator:
+class example2
+{
+public static void main(String[] args)
+{
+System.out.println(true?10:20);//10
+System.out.println(false?10.5:20.5);//20.5
+System.out.println(10>20?"hi":"hello");//hello
+System.out.println(10+20?"hi":"hello");//CTE
+}
+}
+=========================================================================================
+Increment Operator:
+class example3
+{
+public static void main(String[] args)
+{
+int a=10;
+int b=a++;
+int c=++b+a++;
+System.out.println(a);//12
+System.out.println(b);//11
+System.out.println(c);//22
+}
+}
+==========================================================================================
+Decrement Operator:
+class example4
+{
+public static void main(String[] args)
+{
+int a=10;
+int b=a++ +20;
+int c=b-- + ++a;
+int d=c++ - --a+b--;
+System.out.println(a++);//11
+System.out.println(++b);//29
+System.out.println(c--);//43
+System.out.println(--d);//59
+System.out.println(a);//12
+System.out.println(b);//29
+System.out.println(c);//42
+System.out.println(d);//59
+
+}
+}
+============================================================================================
+1)WAJP to check the given number is "Even" or "Odd"?
+class Example7 
+{
+	public static void main(String[] args) 
+	{
+		int a=4;
+		if(a%2==0)
+		{
+			System.out.println("Even");//even
+		}
+		else
+		{
+			System.out.println("Odd");
+		}
+	}
+}
+=============================================================================================
+2)WAJP to find the largest of 2 numbers?
+int a=10;
+int b=20;
+if(a>b)
+{
+System.out.println("a is largest");
+}
+else
+{
+System.out.println("b is largest"):
+}
+=============================================================================================
+3)WAJP to check the given character is digit or not?
+class  example8
+{
+	public static void main(String[] args) 
+	{
+		char ch='A';
+		if(ch>='0' && ch<='9')
+		{
+			System.out.println("Digit");
+		}
+		else
+		{
+			System.out.println("NotDigit");//not digit
+		}
+	}
+}
+===============================================================================================
+4)WAJP to check the given character is Alphabet or not?
+class  Example9
+{
+	public static void main(String[] args) 
+	{
+		char ch='B';
+		if(ch>='A' && ch<='Z' || ch>='a' && ch<='z')
+		{
+			System.out.println("Alphabet");//alphabet
+		}
+		else
+		{
+			System.out.println("NotAlphabet");
+		}
+	}
+}
+=================================================================================================
+else-if ladder program:
+class  Example1
+{
+	public static void main(String[] args) 
+	{
+System.out.println("main begin");
+if(false)
+{
+System.out.println(2);
+}
+else if(false)
+{
+System.out.println(3);
+}
+else
+{
+System.out.println(4);
+System.out.println("main end");
+}
+}
+}
+output:main begin
+4
+main end
+===============================================================================================
+5)WAJP to check the given character is Alphabet or digit for Special character?
+class  Example2
+{
+	public static void main(String[] args) 
+	{
+char ch='A'
+if(ch>='A' && ch<='Z' || ch>='a' && ch<='z')
+{
+System.out.println("Alphabet");
+}
+else if(ch>=='0' && ch<='9')
+{
+System.out.println("digit");
+}
+else
+{
+System.out.println("Special character");
+}
+}
+}
+================================================================================================
+Switch:
+switch(5+5)
+{
+case 5:System.out.println(1);
+case 10:System.out.println(2);
+case 15:System.out.println(3);
+case 20:System.out.println(4);
+default:System.out.println(5);
+}
+=================================================================================================
+
+
