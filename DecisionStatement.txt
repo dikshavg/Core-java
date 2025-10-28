@@ -1,0 +1,56 @@
+iii)else-if ladder:
+->whenever we have more then 2 condition and it needs to execute any one of it, we use else-if ladder.
+Syntax:
+if(condition)
+{
+//java statements
+}
+else if(condition)
+{
+//java statements
+}
+else if(condition)
+{
+//java statements
+}
+else if(condition)
+{
+//java statements
+}
+---
+else
+{
+//java statements
+}
+
+iv)Switch:
+->when ever we need to take the decision based on the value we use switch statements.
+Syntax:
+Switch(value/Exp)
+{
+case(value/Exp):
+{
+//java Statements
+}
+case(value/Exp):
+{
+//java Statements
+}
+---
+default:
+{
+//java statements
+}
+}
+
+v)break:
+->is a keyword
+->it is also called as Control transfer statements
+->break will stops the execution and transfer the control out of the block
+note: break can be used only inside the Switch statements or loop statements
+ex: if(true)
+{
+System.out.println("hello");
+break;
+System.out.println("bye");
+}//CTE
