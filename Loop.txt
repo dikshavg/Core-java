@@ -1,0 +1,51 @@
+Loop:
+->whenever we need to execute a statement or group of statement multiple times we use loop Statement
+->in java we have following loops:
+1)while
+2)do-while
+3)for loop
+4)for each loop
+5)Nested loop
+
+*3 important segments of loop Statements are:
+1)Inialization
+2)Condition
+3)Updation
+
+1)while-loop:
+->is used to execute a block of code multiple times based on the condition
+Syntax:
+while(condition)
+{
+//java Statements
+}
+
+2)do-while loop:
+->whenever we need to execute a statement or group of statement minimum 1 time irrespective of a condition we use do-while loop.
+Syntax:
+do
+{
+//java statements
+}
+
+**Different between while loop and do-while loop:
+while-loop:
+->it is also called as Entry control loop
+->0-iteration is minimum  possible
+
+do-while loop:
+->it is also called as exist control loop
+->1-iteration is possible
+
+3)for-loop:
+Syntax:
+for(initialization; condition; Updation)
+{
+//java Statements
+}
+
+
+
+
+
+
