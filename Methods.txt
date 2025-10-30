@@ -1,0 +1,72 @@
+*Methods:
+->is used to stored the behaviour of an object 
+->method is a set of instructions or block of code to perform a specific task.
+note: method get executed only when it is called
+Syntax: [Modifiers] returntype methodname([formal argument])
+{
+//implementation
+}
+
+ex:
+public static void add()
+{
+int a=10;
+int b=20;
+int res=a+b;
+System.out.println(res);
+}
+========================================================================================
+**3 important terminology of method:
+1)method signature:
+method name, formal Argument
+2)method Declaration:
+modifiers ,return type, method signature
+3)method definition:
+method declaration ,method body/implementation
+====================================================================================
+**Based on the formal arguments methods are classified into 2 types:
+1)no-Argument method
+2)Parameterised method
+
+1)No-Argument method:
+a method which doesn't have formal arguments is known as no-Argument method.
+Syntax:
+method name();
+ex: public static void add()
+{
+int a=10;
+int b=20;
+int res=a+b;
+System.out.println(res);
+}
+
+2)Parameterised method:
+a method which has formal Arguments is known as Parameterised method.
+Syntax:
+method name(Actual Argument);
+ex: 
+class p16
+{
+public static void main(String[] args)
+{
+add(20,30);
+}
+public static void add(int a, int b)
+{
+int res=a+b;
+System.out.println(res);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
