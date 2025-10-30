@@ -1,53 +1,44 @@
-**Datatype:
-are used to specifies the size and type of the data that can be stored in a container known as datatype.
-*we have 2 types:->
-1)Primitive datatype(Single value data)
-2)Non-Primitive datatype(Multi-value data)
-==============================================================================================================
-Primitive datatypes:(8)
-1)byte
-2)short
-3)int
-4)long
-5)float
-6)double
-7)char
-8)Boolean
-==============================================================================================================
-Variable: is a name given by the programmer to the container created.
-*to create variable we need:->
-1)datatype
-2)identifiers
+*Number:
+number datatype accepts only numeric values that is '0-9',number can be a +ve or -ve.
+Syntax: Number(Precision[,Scale])
 
-#Syntax to create variable:->
-datatype identifiers;
+Note:
+Precision: it is used to determine total number of int digit used in a value.
+->the maximum precision can be 38
 
-#Syntax to initialize a variable:->
-variable Name=value/Expression;
+Scale: it is used to determine total number of decimal digits used in a value and scale block gets created within the precision.
+->the maximum Scale can be 127
+->Scale is Optional, so the default value of scale is 0
+ex: number(3):999
+number(5,2):999.99
+number(7,3):9999.999
+number(2,5):.00099
+number(3,3):.999
+==============================================================================================================================================
+4)Large object:
+1)Character large Object:
+->it is used to store character up to 4GB of size
+2)Binary large Object:
+->it is used to store binary values of images, mP3, mP4 and games up to 4GB of size.
+=====================================================================================================
+*Constraints: 
+->are the rule assign to column for extra validation
 
-#Syntax to declare & initialize a variable:->
-datatype identifier=value/Exp;
-==================================================================================================================
-Types of variables:->
-1)Local variable
-2)Global variable
+**Types of constraints:
+1)Unique
+2)not null
+3)check
+4)primary key
+5)Foreign key/referential integrity constant
 
-1)Global variable: the variable which is create in the global area/class block.
-it has 2 type:
-*Static variable
-*Non-static variable
+1)Unique:
+->it is used to avoid repeated or duplicate values.
 
-2)Local variable: a variable which is create in the local area.
+2)Not null:
+->it is used to avoid null values(Empty cell)
 
-**Characteristics of local variable:->
-1)local variable doesn't have the default value.
-2)Before using the local variable we must initialize else we get compile time error.
-3)local variable can be used within the block where it is declared, if we try to use outside the block we get error.
-
-
-
-
-
-
-
-
+*Character of null:
+1)null means nothing or empty
+2)0 is not a null value
+3)null doesn't occupies any memory
+5)100+Null=Null
