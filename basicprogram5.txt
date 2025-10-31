@@ -1,0 +1,167 @@
+1)WAJP to print number from 10 to 1?
+class Example11 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		while(a>=1)
+		{
+			System.out.println(a);
+			a++;
+	}
+}
+}
+==========================================================================================
+2)WAJP to print lowercase z to a?
+
+class Example14 
+{
+	public static void main(String[] args) 
+	{
+		
+	    char ch = 'z'; // start from 'z'
+
+        while (ch >= 'a') { // loop until 'a'
+            System.out.println(ch);
+            ch--; // move to previous letter
+        }
+    }
+}
+
+=========================================================================================
+3)WAJP to print the odd number from 20 to 1?
+class Example12 
+{
+	public static void main(String[] args) 
+	{
+		int a=20;
+		while(a>=1);
+		{
+			if(a/2==0)
+			{
+				System.out.println(a);
+		}
+		a--;
+	}
+}
+
+}
+
+==========================================================================================
+4)WAJP to print the numbers from 1 to 100 which is divisible by 3 and 5?
+class Example13 
+{
+	public static void main(String[] args) 
+	{
+	int a=1;
+	while(a<=100)
+		{
+		if(a%3==0 && a%5==0)
+			{
+			System.out.println(a);
+	}
+	a++;
+		}
+	}
+}
+
+
+=========================================================================================
+5)Design a method to print number from 1 to 10?
+class Example1
+{
+public static void main(String[] args)
+{
+number(1,10);
+}
+public static void number(int a,int b)
+{
+while(a<=b)
+{
+System.out.println(a+=);
+}
+}
+}
+============================================================================================
+6)Design a method to check the given number is "Even" or "Odd"?
+class Example2
+{
+public static void main(String[] args)
+{
+check(2);
+}
+public static void check(int a)
+{
+if(a%2==0)
+{
+System.out.println("Even");
+}
+else
+{
+System.out.println("Odd");
+}
+}
+}
+=================================================================================================
+7)Design a method to print the Even number from (n to m)?
+class Example3
+{
+public static void main(String[] args)
+{
+print(1,10);
+}
+public static void print(int n,int m)
+while(n<=m)
+{
+if(n%2==0)
+{
+System.out.println(n);
+}
+n++;
+}
+}
+====================================================================================================
+8)Design a method to return sum of two numbers?
+class Example17 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(sum(100,100));
+	}
+	public static int sum(int a,int b)
+	{
+		return a+b;
+	}
+}
+============================================================================================================
+8)Design method to return the number is Even or Odd?
+class Example16 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(evenOrOdd(20));
+	}
+	public static String evenOrOdd(int a)
+	{
+		if(a%2==0)
+			return "Even";
+		else
+			return "Odd";
+	}
+}
+====================================================================================================
+9)Design method to return largest of two number?
+class Example15 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(largest(10,20));
+	}
+	public static int largest(int a,int b)
+	{
+		if(a>b)
+			return a;
+		else
+			return b;
+	}
+}
