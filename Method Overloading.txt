@@ -1,0 +1,105 @@
+*Method Overloading:
+->in a class having multiple methods with the same name but change in formal Arguments is called as Method Overloading
+
+*Rules of Method Overloading:
+1)no. of formal Argument should be different
+2)Datatype should be different
+3)Sequence of the datatype should be different
+
+->we can satisfy any 1 rule among 3 rules.
+===============================================================================================
+class Demo
+{
+public static void display()
+{
+System.out.println("display()-1");
+}
+public static void display(int a)
+{
+System.out.println("display()-2");
+}
+public static void display(String s)
+{
+System.out.println("display()-3");
+}
+public static void display(int a,double b)
+{
+System.out.println("display()-4");
+}
+public static void display(double a,int b)
+{
+System.out.println("display()-5");
+}
+public static void display(String[] args)
+{
+System.out.println("main begin");
+display(25);
+display(23.6,32);
+display();
+display("Tom");
+System.out.println("main End");
+}
+}
+=============================================================================================
+class Test
+{
+public static void add(int a,int b)
+{
+System.out.println("add()-1");
+System.out.println(a+b);
+}
+public static void add(double a,double b)
+{
+System.out.println("add()-2");
+System.out.println(a+b);
+}
+public static void add(double a,int b)
+{
+System.out.println("add()-3");
+System.out.println(a+b);
+}
+public static void add(String[] args)
+{
+System.out.println("main begin");
+add(25,25);
+add(25.3,50);
+add(12.3,6.1);
+add(15,34.6);
+System.out.println("main end");
+}
+===============================================================================================
+->in method Overloading return type of the Overloading methods can be different
+->we can also have multiple main method in the Method Overloading
+
+class Example
+{
+public static void main()
+{
+System.out.println("main()-1");
+}
+public static void main(int a)
+{
+System.out.println("main()-2");
+}
+public static void main(String[] args)
+{
+System.out.println("main()-3");
+}
+}
+===============================================================================================
+class Netflix
+{
+public static void login(String s,String s)
+{
+Sytem.out.println("login Successfully");
+}
+public static void login(long l,String s)
+{
+Sytem.out.println("login Successfully");
+}
+public static void main(String[] args)
+{
+login("rahul@432","rahul1234");
+login(123456789l,"rahul1234");
+}
+}
