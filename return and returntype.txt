@@ -1,0 +1,37 @@
+*return:
+->it is a keyword
+->it is also known as control transfer statement
+->return will destroy the frame and transfer the control back to calling method
+note:return statement should be the last statement in a block else we get compile time error
+ex: System.out.println("main begin");
+return;//CTE
+System.out.println("main end");
+
+*return-type:
+->can a method return a value to its caller:
+yes, we call return the following types of data/literals.
+1)numericals
+2)character
+3)string
+4)Boolean
+->it is the type of value that we returning from the method
+
+ex1:
+public static int print()
+{
+System.out.println("from print()");//CTE
+}
+
+ex2:
+public static int print()
+{
+System.out.println("From print()");
+return;//CTE
+}
+
+ex3:
+public static int print()
+{
+System.out.println("From print());
+return 10;//CTS
+}
