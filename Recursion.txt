@@ -1,0 +1,65 @@
+*Recursion:
+the process of method calling it self is known as Recursion
+ex: class p1
+{
+public static void main(String[] args)
+{
+System.out.println("main begin");
+test();
+System.out.println("main end");
+}
+public static void test()
+{
+System.out.println("test begin");
+test();
+System.out.println("test end");
+}
+}
+
+**Steps to stop infinite time Execution:
+->create base condition,it is condition which is used to stops the execution
+->if the condition is satisfied execute the return statement
+
+ex:
+class P1
+{
+public static void main(String[] args)
+{
+System.out.println("Min begin");
+test(3);
+System.out.println("Main end");
+}
+public static void test(int a)
+{
+System.out.println("test begin");
+if(a==0)
+{
+return;
+}
+a--;
+test(a);
+System.out.println("test end");
+}
+}
+
+ex:
+class P2
+{
+public static void main(String[] args)
+{
+System.out.println("Min begin");
+test(3);
+System.out.println("Main end");
+}
+public static void test(int a)
+{
+System.out.println(a);
+--a;
+if(a==0)
+{
+return;
+}
+test(a);
+System.out.println(a);
+}
+}
