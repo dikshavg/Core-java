@@ -1,0 +1,105 @@
+PART-II:
+*class:
+->class is a keyword, it is used to design a user define non-primitive datatype to store the details of object.
+Syntax:
+class Name
+{
+}
+->class is also considered as blue-print of an object.
+->inside a class we can create members like method as well as variables
+ex:
+class calci
+{
+string branch;
+double price;
+string colour;
+void add()
+{
+}
+void sub()
+{
+}
+
+->in java every class name can be a non-primitive datatype
+->every class name act like a non-primitive datatype there for we can hav n-number of non-primitive data types
+============================================================================================
+*members of a class:
+->Anything which is declared inside the class-block is known as members of a class
+
+*class members are classified into 2 types:
+1)static members
+2)non-static members
+
+1)static members:
+->static is a keyword
+->it is a non-access modifier
+===============================================================================================
+*Static:
+->static is a keyword
+->it is a non-access modifier
+
+*Static members:
+->any class member which is prefix with static modifier is known as static member of a class.
+->we have following static members:
+1)static method
+2)static variable
+3)static initializers
+
+2)Non-static members:
+->any class members which is not prefix with static modifier 
+->we have 4 types:
+1)non-static method
+2)non-static variable
+3)non-static initializer
+4)Constructor
+===========================================================================================
+1)static method:
+->a method which is prefixed with static modifier known as static method
+ex:
+
+class p1
+{
+public static void main(String[] args)
+{
+System.out.println("main begin");
+test();
+System.out.println("main end");
+}
+static void test()
+{
+System.out.println("test begin"):
+System.out.println("test end");
+}
+}
+
+*Access Operator:
+->it is a binary Operator
+->it is used to access the member present in a particular location/Address
+Syntax: LHS.RHS
+
+*Static variable:
+->a global variable which is prefix with static modifier 
+-*points to be remember:
+1)static variable have the memory allocation inside the class static area
+2)every global variable have default value
+->class name with access operator
+->directly with help of name
+
+class p1
+{
+static int a;
+}
+
+class p2
+{
+static double a;
+}
+
+class Driver1
+{
+public static void main(String[] args)
+{
+System.out.println(p1.a)//0
+System.out.println(p2.a);//0.0
+}
+}
