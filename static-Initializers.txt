@@ -1,0 +1,36 @@
+3)every global variable have default value.
+4)we can access static variable of one class inside the static context of another class using class name with access operator.
+5)we can global variable and local variable with the same name, the highest priority will be given to local variable.
+6)global variable can be used through out the class but local variable can be used within the block where it is declared.
+
+**Static-initializers:
+static-initializers are used for the initialization purposes.
+->we have 2 types of static initializers:
+1)static declare & initialization statement 
+2)static block
+
+1)static declare & initialization statement :
+syntax: static datatype identifier's =value/Expression;
+ex: Static int a=10;
+
+2)static block:
+->an anonymous block which is prefixed with static modifiers known as static block.
+Syntax: 
+static
+{
+//java statements
+}
+
+*character of static block:
+->Dont have a name
+->Dont have a return type
+->cannot accept values
+->Cannot call it explicitly
+->gets executed during loading process of a class
+
+Loading process of a class:
+->class static area is created and all the methods will be loaded to method area
+->if static method are present the reference of static methods are stored inside class static area
+->if static variable is present, memory will be allocated with in CSA and they will be assigned with default value.
+->if static initializers are present, they get executed directly.
+(only after this the main method will be called)  
