@@ -1,0 +1,109 @@
+class Demo
+{
+int a=25;
+double b;
+public static void eat()
+{
+System.out.println("Eating biriyani");
+}
+static
+{
+System.out.println("Static block-1");
+}
+public static void walk()
+{
+system.out.println("walking on the road"):
+}
+static
+{
+System.out.println("Satatic block-2");
+}
+static
+{
+System.out.println("Static block-3");
+}
+public static void sing()
+{
+System.out.println("Singing a song");
+}
+String s="Tom";
+public static void main(String[] args)
+{
+System.out.println("Main start");
+eat();
+System.out.println(b);
+System.out.println(s);
+Demo.walk();
+System.out.println(a);
+sing();
+System.out.println("Main End"):
+}
+}
+========================================================================================================
+output:
+static block-1
+static block-2
+static block-3
+main start
+eating biriyani
+0.0
+tom
+walking on the road
+25
+singing a song
+main end
+========================================================================================================
+Method Overloading:
+
+class Lovestory
+{
+public static void dingi()
+{
+System.out.println("but dingi loves Santosh");
+Santosh();
+}
+public static void Santosh()
+{
+System.out.println("Santosh also loves dingi"0;
+marry();
+}
+public static void Vijay()
+{
+System.out.println("Vijay loves dingi"):
+System.out.prinltn("Vijay proposes dingi");
+dingi();
+}
+public static void marry()
+{
+System.out.prinltn("Santosh and dingi marry"):
+System.out.println("Vijay is Sad");
+}
+public static void main(String[] args)
+{
+System.out.prinltn("love story begin");
+Vijay();
+System.out.println("love story end");
+}
+}
+==============================================================================================
+output:
+love story begin
+Vijay loves dingi
+viajy proposes dingi
+but dingi loves Santosh
+santosh also loves dingi
+santosh and dingi marry
+Vijay is sad
+love story end
+=====================================================
+
+
+
+
+
+
+
+
+
+
+
