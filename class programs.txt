@@ -1,0 +1,113 @@
+**Static method:
+
+class P1
+{
+public static void main(String[] args)
+{
+System.out.println("main begin");
+test();
+System.out.println("main end");
+}
+Static void test()
+System.out.println("test begin");
+System.out.println("test end");
+}
+}
+==================================================
+output:
+main begin
+test begin
+test end
+main end
+================================================================
+**Static variable:
+
+class p2
+Static int a;
+public static void main(String[] args)
+{
+System.out.println(a);
+System.out.println(p2.a);
+}
+}
+=======================================
+output:
+0
+0
+=============================================================
+**Static declare and Initializers:
+
+class P3
+static int a=10;
+public static void main(String[] args)
+{
+System.out.println(a);
+}
+}
+===========================================
+output:10
+=======================================================================
+**Static block:
+
+class p5
+{
+static
+{
+System.out.println('STB");
+}
+public static void main(String[] args)
+{
+System.out.println('main");
+}
+}
+==================================================
+output:
+STB
+main
+==================================================================================
+**Object:
+
+class P4
+{
+int a;
+double b;
+public static void main(String[] args)
+{
+p4 o=new p4();
+System.out.println(o);
+System.out.println(o.a);
+System.out.println(o.b);
+}
+}
+================================================
+output:
+p4@123
+0
+0.0
+=======================================================================================
+**Non-Static variable:
+ 
+class P4
+{
+int a;
+static Boolean b;
+public static void main(String[] args)
+{
+p4 obj=new p4();
+System.out.println(obj.a);
+System.out.println(b);
+System.out.println(p4.b);
+System.out.println(obj.b);
+}
+}
+=================================================
+output:
+0
+false
+false
+false
+false
+
+
+
+
