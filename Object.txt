@@ -1,0 +1,45 @@
+Object:
+->object is a block of memory created inside a heap area during run-time.
+->it is also called as instance of class
+->syntax:
+new classname();
+
+*new:
+->is a keyword
+->it is a urinary Operator
+->it will create block of memory,inside the heap area.
+->the Address format is class name@ Hexadecimal
+
+*Constructor:
+->is a special type of non-static member which is used for Instastion and Initialization
+->used to load the non-static members into the Object
+===========================================================================================
+**Non-Static variable:
+->a global variable which is not prefixed with static is known as Non-static variable.
+->it will have the memory allocation in the onject
+->we can access static members inside the static context in the following ways:
+1)Directly
+2)with classname
+#)with Address of an Object
+
+**Non-static method:
+->the method which is not prefix with static is known as non static method
+->a block which is belongs to non static method is known as non static context
+->every non static frame have the bulit in reference pointing to an Object
+=============================================================================================
+*THis:
+->is a keyword
+->is a non-static variable there for we can use only inside the non-static context
+->this variable contains "Address of an object".
+
+**Non-static Initilizers:
+->we have 2 types:
+1)non-static declare and initializers
+2)non-static block
+
+1)non-static declare and initializers:
+->Syntax:
+datatype identifiers=value/Expression;
+int a=10;
+->it will execute during the loading of each and every object created
+->non-static initializers get executed during the loading process of an Object
