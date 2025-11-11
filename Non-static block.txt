@@ -1,0 +1,46 @@
+*Non-static block:
+an block which is not prefixed with static modifier is known as non-static block.
+Syntax:
+{
+//java statements
+}
+
+note: non-static block et executed during the loading process of each and every Object created
+ex:
+class p8
+{
+{
+System.out.println("NSIB"):
+}
+public static void main(String[] args)
+{
+System.out.println("main method"):
+new P8();
+new P8();
+}
+}
+====================================================
+output:
+main  method
+NSIB
+NSTB
+================================================================================================
+note: in a class we can have more then 1 non-static block they get executed in top to bottom order
+ex:
+class P8
+{
+{
+System.out.println("NSIB-2");
+}
+public static void main(String[] args)
+{
+System.out.println("Main method");
+new p8();
+new P8();
+}
+{
+System.out.println("NSIB-1");
+}
+}
+
+
