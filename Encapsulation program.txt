@@ -1,0 +1,61 @@
+Encapsulation program:
+----------------------
+
+class Savings Account
+{
+int accno;
+String name;
+private double bal;
+String ifsc;
+Savings Account()
+{
+}
+Savings Account(int accno, String name, double bal, String ifsc)
+{
+this.acno=acno;
+this.name=name;
+this.bal=bal;
+this.ifsc=ifsc;
+}
+void display Details()
+{
+system.out.println("Account number:" +acno):
+system.out.println("Account holders name:"+name);
+system.out.println("Account balance :" +bal);
+system.out.println("Branch ifsc code:"+ifsc);
+system.out.println("---------------"):
+}
+double deposit(double amt)
+{
+bal +=amt;
+System.out.println("amt+" "is Successfully deposited to your account");
+return bal;
+}
+double withdraw(double amt)
+{
+if(amt<bal)
+{
+bal-=amt;
+System.out.println("amt+" "is debited from your account");
+return bal;
+}
+else
+{
+{
+System.out.println("Insufficient balance"):
+return bal;
+}
+}
+}
+
+*class SADriver
+{
+public static void main(String[] args)
+{
+Savings Account a1=new Savings Account(101,"Shella",5000,"IIICT001");
+a1.displayDetails();
+System.out.println(a1.bal);
+}
+}
+
+
