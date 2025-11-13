@@ -1,0 +1,37 @@
+Relationship:
+->the connection between two Objects is known Relationship.
+-> we have 2 types:
+1)IS-A 
+2)HAS-A
+
+1)HAS-A:
+->The connection between the whole Objects and the part of it.
+ex: car HAS-A Engine
+
+2)IS-A:
+->its a relationship between parent and child where child acquires all the properties of parent.
+ex: Car IS-A Vehicle
+
+**Purpose of IS-A relationship:
+->main purpose of IS-A relationship is to achieve "Generalization" as well as "Specialization".
+
+->Bottom-Top approach is called as Generalization
+->Top-Bottom approach is called as Specialization
+
+note:we can achieve IS-A relationship using 'Inheritance'.
+
+**Inheritance:
+->is a design principal which is used to achieve is-a relationship between the two "Objects" where one object acquires the properties of another object
+
+*Parent-class:
+->the class which provides states and behaviour to another class
+
+*child-Object:
+->an object which acquires the properties of another object
+
+**We can achieve inheritance between class by 2 keyword:
+1)extends
+2)implements
+
+*solid arrow represents extends
+*Dotted arrow represents implements.
