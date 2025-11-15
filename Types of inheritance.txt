@@ -1,0 +1,21 @@
+**Types of inheritance:
+1)Single-level inheritance
+2)Multi-level inheritance
+3)Hierarchical level inheritance
+4)Multiple inheritance
+5)Hybrid inheritance
+
+1)Single-level inheritance:
+->Once Super class having only one Sub class is called as Single-level inheritance
+
+2)Multi-level inheritance:
+->Once super class having multiple Sub class is called Multiple -level inheritance
+
+3)Hierarchical inheritance:
+->One superclass having multiple sub-class at the same level is known as Hierarchical inheritance
+
+4)Multiple Inheritance:
+->one sub class having multiple super class at the same level is called Multiple inheritance
+
+5)Hybrid inheritance:
+->its a combination of hierarchical inheritance and multiple inheritance is called as hybrid inheritance'.
