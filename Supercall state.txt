@@ -1,0 +1,74 @@
+**Supercall state:
+->Super call statement is used to call the Constructor of the parent class.
+->Super call statement can only be used inside a constructor
+->In a constructor if there is No this call statement we will always have super call statement
+
+**we have 2 types of super call statement:
+1)implicit super() statement
+2)Explicit super() statement
+
+1)implicit super() statement:
+->whenever parent call is having a non-Argument Constructor then supercalll statement present in the sub class Constructor will be called implicitly
+
+**class Father
+{
+int age=53;
+Father()
+{
+System.out.println("Father Constructor"):
+}
+}
+
+**class Son Extends Father
+{
+String name="Tom";
+Son();
+{
+System.out.prinltn("Son Constructor");
+}
+}
+
+Class SonDriver
+{
+public static void main(String[] args)
+{
+Son s=new Son();
+System.out.println(S.age);
+System.out.println(s.name);
+}
+}
+
+**Explicit Super() statements:
+->whenever parent class is having parametrized Constructor then Super call Statement has be to called Explicitly.
+
+ex:
+class University
+{
+String uname;
+University(Strig name)
+{
+this.uname=uname;
+System.out.println("Unversity Constructor"):
+}
+}
+
+**class college Extends University
+{
+String cname;
+college(String cname);
+{
+super("VTU");
+this.cname=came;
+System.out.println("college  constructor");
+}
+}
+
+**class college Driver
+{
+public static void main(String[] aargs);
+{
+College c=new college("BMS"):
+System.out.prinltn("University name:" +c.uname);
+System.out.println("college name:" +c.cname);
+}
+}
