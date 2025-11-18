@@ -1,0 +1,61 @@
+**Non-Primitive type casting:
+the process of converting non-primitive type to another non-primitive type,we call it as non-primitive type casting
+ex:
+class A
+{
+}
+class B
+{
+}
+class Driver1
+{
+public static void main(String[] args)
+{
+A obj=new A();
+b obj=obj;
+}
+}
+=================================================================
+ex:
+class A
+{
+}
+class B
+{
+}
+class  Driver2
+{
+public static void main(String[] args)
+{
+A obj=new A();
+B obj1=(B)obj;//CTE
+}
+}
+==================================================================
+ex:
+class A
+{
+int i=10;
+class B extends A
+{
+int j=20;
+}
+class Driver1
+{
+public static void main(String[] args)
+{
+B obj=new B();
+system.out.println(obj.j);
+System.out.println(obj.i);
+A obj1=obj;
+System.out.println(obj);
+System.out.println(obj1);
+System.out.println(obj1.j);//CTE
+}
+}
+===================================================================
+
+**The non-primitive type casting can be classified into two types:
+1)Upcasting
+2)Down casting
+System.out.println(obj1.i):
