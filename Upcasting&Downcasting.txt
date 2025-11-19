@@ -1,0 +1,40 @@
+1)Upcasting:
+the process of converting sub-class reference type into super-class reference type 
+ex:
+class A
+{
+int i=10;
+}
+class B extends A
+{
+int j=20;
+}
+class Driver
+{
+public static void main(String[] args)
+{
+B obj=new B();
+A obj1=obj;
+A obj2=new new B();
+}
+}
+
+**DownCasting:
+the process of converting superclass reference type into sub class reference 
+ex:
+class A
+{
+int i=10;
+}
+class B extends A
+{
+int j=20;
+}
+class Driver1
+{
+public static void main(String[] args)
+{
+A obj=new B(0;
+B obj1=obj;
+}
+}
