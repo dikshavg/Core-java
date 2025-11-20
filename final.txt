@@ -1,0 +1,65 @@
+**final:
+->final is keyword
+->final is a non-access modifier
+->final keyword can be prefixed with variable,method & classs
+->whenever a variable is a final cant be re-initialization
+->whenever a method is a final that method can be inherited but cannot be overridden
+->whenever a class is final cant be inherited
+
+ex:
+package java_demo;
+public final class demo
+{
+public static void main(String[] args)
+{
+final int a;//CTE
+a=30;
+final int b=36;
+System.out.println(b);
+b=67;
+}
+}
+
+ex:
+package java_demo;
+public class demo1
+{
+public static final void eat()
+{
+System.out.println("Eating Briyani");
+}
+public final void walk()
+{
+System.out.println("walking on the road");
+}
+}
+
+package java_demo
+public classTest2 extends Demo{
+public static void main(String[] args)
+Demo d=new Demo1();
+d.eat();
+d.walk();
+}
+}
+//output:
+Eating briyani
+Walking on the road
+
+ex:
+package java_demo;
+public final class Demo1//final class cannot be inherited
+{
+
+}
+package java_demo
+public class Test2 extends Demo1
+{
+public static void main(String[] args)
+{
+}
+}
+
+
+
+
