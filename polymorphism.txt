@@ -1,0 +1,36 @@
+polymorphism:
+->it is the ability of the number to exhibit more than one frame is known as polymorphism.
+
+*in java ,we can achieve polymorphism in two types:
+1)compile time polymorphism
+2)Runtime polymorphism
+
+1)compile time polymorphism:
+if which implementation of the number has to be used is decided by the complier time polymorphism
+**there are following compile polymorphism:
+a)Method Overloading
+b)Constructor Overloading
+c)Shadowing----->variable shadowing
+	---->method shadowing
+=========================================================================
+a)Method Overloading:
+-> A class having methods with same name but, different formal Arguments is known as method Overloading.
+
+b)Constructor Overloading:
+->A class having constructor with same name but different formal Arguments is known as constructor Overloading
+
+c)Shadowing:
+shadowing is nothing but having members with same or signature with in same class virtually.
+
+------> variable shadowing:
+->if both super class and sub class are having either static or non-static variable,with the same name then it is known as Variable shadowing.
+-------> method shadowing:
+->if both super class and sub class are having methods with same signature then we call it as method shadowing
+
+ 
+
+
+
+
+ 
+
