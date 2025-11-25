@@ -1,0 +1,51 @@
+variable shadowing :
+
+class A
+{
+int i=10;
+}
+
+class B extends A
+{
+int i=20;
+}
+
+class Driver1
+{
+public static void main(String[] args)
+{
+A obj=new B();
+System.out.println(obj.i);//10
+B obj1=new B();
+System.out.pritnln(obj1.i);//20
+}
+}
+=============================================================================================
+method Shadowing:
+
+class A
+{
+static void test()
+{
+System.out.println("From-A");
+}
+}
+
+class B extends A
+{
+Static void test()
+{
+System.out.println("From-B");
+}
+}
+
+class Driver
+{
+public static void main(String[] args)
+{
+B obj=new B();
+obj.test();//From-B
+A obj1=new B();
+obj.test();//From-A
+}
+}
