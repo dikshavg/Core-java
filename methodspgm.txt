@@ -1,0 +1,49 @@
+package Modifiers;
+
+import java.util.Objects;
+
+public class Marker {
+ int price;
+ String brand;
+ String colour;
+ 
+ public Marker(int price, String brand, String colour) {
+	super();
+	this.price = price;
+	this.brand = brand;
+	this.colour = colour;
+ }
+ 
+ @Override
+public int hashCode() {
+	return Objects.hash(brand, colour, price);
+}
+
+ @Override
+ public boolean equals(Object obj) {
+	if (this == obj)
+		return true;
+	if (obj == null)
+		return false;
+	if (getClass() != obj.getClass())
+		return false;
+	Marker other = (Marker) obj;
+	return Objects.equals(brand, other.brand) && Objects.equals(colour, other.colour) && price == other.price;
+ }
+
+ public static void main(String[] args) {
+	Marker obj1=new Marker(10, "Ashok", "pink");
+	Marker obj2=new Marker(10, "Ashok","pink");
+	System.out.println(obj1==obj2);
+	System.out.println(obj1.equals(obj2));
+	System.out.println(obj1.hashCode());
+	System.out.println(obj2.hashCode());
+}
+ 
+}
+=====================================================
+outprint:
+false
+true
+1056706533
+1056706533
