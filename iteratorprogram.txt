@@ -1,0 +1,45 @@
+package Modifiers;
+
+public class Emp {
+	int id;
+	String name;
+	double sal;
+	public Emp(int id, String name, double sal) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.sal = sal;
+	}
+	@Override
+	public String toString() {
+		return "Emp [id=" + id + ", name=" + name + ", sal=" + sal + "]";
+	}
+	
+
+}
+=========================================
+package Modifiers;
+
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class C1 {
+	public static void main(String[] args) {
+		ArrayList emp=new ArrayList();
+		emp.add(new Emp(101,"Allen",1000));
+		emp.add(new Emp(102,"Smith",2000));
+		Iterator i=emp.iterator();
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+		
+	}
+	
+
+}
+========================================
+output:
+Emp [id=101, name=Allen, sal=1000.0]
+Emp [id=102, name=Smith, sal=2000.0]
