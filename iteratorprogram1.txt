@@ -1,0 +1,44 @@
+package Modifiers;
+
+public class Mark {
+	String colour;
+	String brand;
+	double cost;
+	public Mark(String colour, String brand, double cost) {
+		super();
+		this.colour = colour;
+		this.brand = brand;
+		this.cost = cost;
+	}
+	@Override
+	public String toString() {
+		return "Mark [colour=" + colour + ", brand=" + brand + ", cost=" + cost + "]";
+	}
+	
+	
+
+}
+===================================
+package Modifiers;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class C2 {
+	public static void main(String[] args) {
+		ArrayList mark=new ArrayList();
+		mark.add(new Mark("blue","show",100));
+		mark.add(new Mark("black","show",200));
+		Iterator i=mark.iterator();
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+		
+	}
+}
+	
+=============================
+output:
+Mark [colour=blue, brand=show, cost=100.0]
+Mark [colour=black, brand=show, cost=200.0]
