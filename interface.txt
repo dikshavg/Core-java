@@ -1,0 +1,28 @@
+class A
+{
+}
+interface B
+{
+}
+class C extends A implements B
+{
+}
+class Driver1
+{
+public static void main(String[] args)
+{
+c obj=new c();
+B obj1=(B) obj;
+obj=(c) obj1;
+}
+}
+
+class Driver2
+{
+public static void main(String[] args)
+{
+A obj=new A();
+B obj1=(B) obj;
+obj=(A) obj1;
+}
+}
