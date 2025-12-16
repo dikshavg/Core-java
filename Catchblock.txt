@@ -1,0 +1,49 @@
+A catch block gets executed only when the throwable object is caught/Exception is caught.:
+
+public class P7
+{
+public static void main(String[] args)
+System.out.println("Main begin");
+try 
+{
+int a=10;
+Ssyetm.out.println(a);
+in b=0;
+System.out.println(b);
+int res=a/b;
+System.out.println(res);
+}
+Catch(Arithmetic Exception e)
+{
+System.out.println("dont pass zero");
+}
+System.out.println("main end");
+}
+}
+========================================================================================================================
+public class P7
+{
+public static void main(String[] args)
+{
+try{
+System.out.println("Welcome to calci app");
+System.out.println("Enter the 1st value");
+Sccaner s=new Scanner(System.in);
+int a=s.nextInt();
+System.out.println(a);
+System.out.println("Enter the 2nd value");
+int b=s.nextInt();
+System.out.println(b);
+int res=a/b;
+System.out.println("The res:"+res);
+}
+Catch(Arithmetic Exception e)
+{
+System.out.println("Dont pass zero");
+}
+Catch(Exception e){
+System.out.printn("pass int value");
+}
+System.out.println("Thank you");
+}
+}
