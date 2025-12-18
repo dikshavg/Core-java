@@ -1,0 +1,120 @@
+1)WAJP to print the number from 1 to 10?
+
+class  print
+{
+	public static void main(String[] args) 
+	{
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+
+output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+============================================================================================================================================================================================
+2)WAJP to check the given number is Even or Odd?
+
+class EvenorOdd 
+{
+	public static void main(String[] args) 
+	{
+		int a=12;
+		
+		if(a%2==0)
+		{
+			System.out.println("Even");
+		}
+		else
+		{
+			System.out.println("Odd");
+		}
+	}
+}
+
+output:
+Even
+============================================================================================================================================================================================
+3)WAJP to print the Even numbers from 1 to 10?
+
+class printEven 
+{
+	public static void main(String[] args) 
+	{
+		for(int i=1;i<=10;i++)
+		{
+			if(i%2==0)
+			{
+				System.out.println(i);
+			}
+		}
+	}
+}
+
+output:
+2
+4
+6
+8
+10
+============================================================================================================================================================================================
+4)WAJP to find the Sum of Even Numbers from 1 to 10?
+
+class SumofEven 
+{
+	public static void main(String[] args) 
+	{
+		int sum=0;
+		for(int i=1;i<=10;i++)
+		{
+			if(i%2==0)
+			{
+				sum=sum+i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
+
+output:
+30
+============================================================================================================================================================================================
+5)WAJP to check the given number is Prime or NotPrime?
+
+class prime 
+{
+	public static void main(String[] args) 
+	{
+		int num=9;
+		int a=2;
+		int count=0;
+		while(a<=num/2)
+		{
+			if(a%2==0)
+			{
+				count++;
+				break;
+			}
+			a++;
+		}
+		if(count==0)
+		{
+			System.out.println("the number is prime");
+		}
+			else
+				System.out.println("The number is not a prime");
+	}
+}
+
+output:
+The number is not a prime
