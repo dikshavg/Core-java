@@ -1,0 +1,134 @@
+6)WAJP to print the Prime Numbers from 1 to 10?
+
+class printprime 
+{
+	public static void main(String[] args) 
+	{
+		for(int i=2;i<=10;i++)
+		{
+			int num=i;
+			int a=2;
+			int count=0;
+			while(a<=num/2)
+			{
+				if(num%a==0)
+				{
+					count++;
+					break;
+				}
+				a++;
+			}
+			if(count==0)
+				System.out.println(num);
+	}
+}
+}
+
+output:
+2
+3
+5
+7
+====================================================================================================
+7)WAJP to Swap the 2 Numbers?
+
+class Swap 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=20;
+		int sum=a;
+		a=b;
+		b=sum;
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+
+output:
+20
+10
+=====================================================================================================
+8)WAJP to Swap 2 Numbers without using Extra Container?
+
+class Swap1 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=20;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+
+output:
+20
+10
+======================================================================================================
+9)WAJP to print Fibonacci Series?
+
+class fibonacci 
+{
+	public static void main(String[] args) 
+	{
+		int a=0;
+		int b=1;
+		System.out.println(a);
+		System.out.println(b);
+		for(int i=2;i<=10;i++)
+		{
+			int c=a+b;
+			System.out.println(c);
+			a=b;
+			b=c;
+			
+			
+		}
+	}
+}
+
+output:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+=======================================================================================================
+10)WAJP to print the numbers from 1 to 5 without using loops Statements?
+
+class printwithoutloop 
+{
+	public static void main(String[] args) 
+	{
+		print(1,5);
+	}
+	public static void print(int a,int b)
+	{
+		System.out.println(a);
+		a++;
+		if(a>b)
+		{
+			return;
+		}
+		print(a,b);
+		
+}
+}
+
+output:
+1
+2
+3
+4
+5
