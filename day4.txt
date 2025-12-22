@@ -1,0 +1,105 @@
+16)WAJP to find the sum of all the digits of a given numbers?
+
+class Sumofdigits 
+{
+	public static void main(String[] args) 
+	{
+		int num=123;
+		int sum=0;
+		while(num>0)
+		{
+			int rem=num%10;
+			sum=sum+rem;
+			num=num/10;
+		}
+		System.out.println(sum);
+	}
+}
+output:
+6
+==============================================================================================================
+17)WAJP to find the 1st digits of a given number?
+
+class  firstdigit
+{
+	public static void main(String[] args) 
+	{
+		int n=58342;
+		while(n>=10)
+		{
+			n=n/10;
+		}
+		System.out.println(n);
+	}
+}
+output:
+5
+====================================================================================================================
+18)WAJP to find Sum of 1st and last digit?
+
+class Sumoffirstlast 
+{
+	public static void main(String[] args) 
+	{
+		int n=123;
+		int last=n%10;
+		while(n>=10)
+		{
+			n=n/10;
+		}
+		System.out.println(last+n);
+	}
+}
+
+output:
+4
+=====================================================================================================================
+19)WAJP to check the given number Xylem or Pholem?
+
+class xylempholem 
+{
+	public static void main(String[] args) 
+	{
+		int n=1234;
+		int temp=n;
+		int last=n%10;
+		while(n>=10)
+		{
+			n=n/10;
+		}
+		int sum1=last+n;
+		int sum2=0;
+		temp=temp/10;
+		while(temp>=10)
+		{
+			sum2=sum2+temp%10;
+			temp=temp/10;
+		}
+		if(sum1==sum2)
+			System.out.println("xylem");
+		else
+			System.out.println("pholem");
+	}
+}
+
+output:
+xylem
+=====================================================================================================================
+20)WAJP to find the factorials of the given number?
+
+class factorial 
+{
+	public static void main(String[] args) 
+	{
+		int num=5;
+		int fact=1;
+		for(int i=num;i>=1;i--)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+}
+
+output:
+120
