@@ -1,0 +1,121 @@
+6)WAJP to find the sum of odd elements present in an array?
+
+package Arrays;
+
+public class SumO {
+	
+	
+		public static void main(String[] args)
+		{
+			 int[] arr = {10, 15, 21, 30, 35};
+		        int sum = 0;
+
+		        for (int i = 0; i < arr.length; i++) {
+		            if (arr[i] % 2 != 0) {
+		                sum = sum + arr[i];
+		            }
+		        }
+
+		        System.out.println("Sum of odd elements = " + sum);
+		    }
+		}
+
+output:
+Sum of odd elements = 71
+==========================================================================================================================
+7)WAJP to find the sum of odd index number present in array?
+
+package Arrays;
+
+public class Oddi {
+	public static void main(String[] args)
+	{
+		int [] a= {1,2,3,4,5};
+		int sum=0;
+		for(int i=0;i<a.length;i++)
+		{
+			if(i%2==0)
+			{
+				sum=sum+a[i];
+			}
+		}
+	
+	System.out.println("sum");
+	}
+
+}
+
+output:
+sum
+========================================================================================================================
+8)WAJP to check the given element is present in an array or not(linear Search)?
+
+package Arrays;
+
+public class linearSearch {
+	public static void main(String[] args) {
+	int element=10;
+	int [] a= {2,5,7,10};
+for(int i=0;i<a.length;i++)
+{
+	if(element==a[i])
+	{
+		System.out.println("element present");
+		return;
+	}
+}
+System.out.println("Element is not present");
+}
+}
+
+output:
+element present
+=======================================================================================================================
+9)WAJP to find the largest element (number) in an array?
+
+package Arrays;
+
+public class largest {
+	public static void main(String[] args)
+	{
+		int a[]= {10,20,30,40};
+		int large=a[0];
+		for(int i=1;i<a.length;i++)
+		{
+		if(a[i]>large)
+		{
+			large=a[i];
+		}
+		}
+		System.out.println(large);
+	}
+
+}
+
+output:
+40
+
+==============================================================================================================
+10)WAJP to find Smallest element(number) in an array?
+
+package Arrays;
+
+public class smallest {
+	public static void main(String[] args)
+	{
+		int a[]= {10,20,30,40};
+		int small=a[0];
+		for(int i=1;i<a.length;i++)
+		{
+		if(a[i]<small)
+		{
+			small=a[i];
+		}
+		}
+		System.out.println(small);
+	}
+
+}
+
+output:
+10
