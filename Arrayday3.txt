@@ -1,0 +1,166 @@
+11)WAJP to check the given element is present in an array(Binary Search)?
+
+package Arrays;
+
+
+public class binarysearch {
+	public static void main(String[] args)
+	{
+	
+	int a[]= {10,20,30,40,50};
+	
+	int key= 40;
+	int start=0;
+	int end=a.length-1;
+	
+	
+	while(start<=end)
+	{
+		int mid=(start+end)/2;
+		
+		if(a[mid]==key)
+		{
+			System.out.println("found");
+			return;
+		}
+		else if(a[mid]<key)
+		{
+			start=mid+1;
+		}
+		else
+		{
+			end=mid=1;
+		}
+	}
+	System.out.println("Not found");
+}
+}
+
+output:
+found
+===================================================================================================================================
+12)WAJP to reverse the given array?
+
+package Arrays;
+
+public class Reversearray1 {
+ public static void main(String[] args) {
+	int a[]= {10,20,30,40,50};
+	int res[]=new int [a.length];
+	for(int i=a.length-1,j=0;i>=0;i--,j++)
+	{
+		res[j]=a[i];
+	}
+	for(int k : res)
+	{
+		System.out.println(k);
+	}
+}
+}
+
+output:
+50
+40
+30
+20
+10
+=================================================================================================================================
+13)WAJP to Swap the given Array?
+
+package Arrays;
+
+public class Swap {
+	 public static void main(String[] args) {
+		int a[] = {10,20,30,40,50};
+		int i=0;
+		int j=a.length-1;
+		while(i<=j)
+		{
+			int temp=a[i];
+			a[i]=a[j];
+			a[j]=temp;
+			i++;
+			j--;
+		}
+		for(int k: a)
+		{
+			System.out.println(k);
+		}
+	}
+}
+
+output:
+50
+40
+30
+20
+10
+=============================================================================================================================
+14)WAJP to reverse the 1st half of an array?
+
+package Arrays;
+
+public class reverse1sthalf {
+	public static void main(String[] args) {
+		
+	
+			int a[] = {1,2,3,4,5,6};
+			int i=0;
+			int j=(a.length-1)/2;
+			while(i<=j)
+			{
+				int temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+				i++;
+				j--;
+			}
+			for(int k: a)
+			{
+				System.out.println(k);
+			}
+		}
+	}
+
+output:
+3
+2
+1
+4
+5
+6
+================================================================================================================================
+15)WAJP to reverse the 2nd half of an Array?
+package Arrays;
+
+public class reverse2ndhalf {
+	
+	public static void main(String[] args) {
+		
+		
+		int a[] = {1,2,3,4,5,6};
+		int i=(a.length)/2;
+		int j=a.length-1;
+		while(i<=j)
+		{
+			int temp=a[i];
+			a[i]=a[j];
+			a[j]=temp;
+			i++;
+			j--;
+		}
+		for(int k: a)
+		{
+			System.out.println(k);
+		}
+	}
+
+}
+
+output:
+1
+2
+3
+6
+5
+4
